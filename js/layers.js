@@ -32,15 +32,14 @@ addLayer("p", {
     ],
     layerShown(){return true}
     upgrades: {
- 11: {
+ 12: {
+title: "Silver",
+    description: "Gain more points based on your fir points.",
+    cost: new Decimal(2),
+        },
+11: {
 title: "Getting Started",
     description: "Gain an extra point per second.",
     cost: new Decimal(1),
         },
-12: {
-title: "Silver"
-	description: "Gain more points based on your fir points." 
-	cost: new Decimal(2),
-	
-    },
 })
